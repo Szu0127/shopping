@@ -1,0 +1,16 @@
+127.0.0.1 - - [01/Sep/2021:21:21:54 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:21:21:56 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 127
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:21:23:00 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 148
+127.0.0.1 - - [01/Sep/2021:21:26:58 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:21:27:07 +0800] "GET /Text0830/Myjsp001x.jsp HTTP/1.1" 404 756
+127.0.0.1 - - [01/Sep/2021:21:27:35 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:21:28:13 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:21:28:28 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 148
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:21:28:49 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 150
+127.0.0.1 - - [01/Sep/2021:22:11:43 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:22:11:45 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 523
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:22:12:07 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 523
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:22:29:48 +0800] "GET /shopping-cart/login.jsp HTTP/1.1" 200 1249
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:22:30:23 +0800] "GET /shopping-cart/login.jsp HTTP/1.1" 200 1248
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:22:31:14 +0800] "GET /shopping-cart/login.jsp HTTP/1.1" 200 1248
+0:0:0:0:0:0:0:1 - - [01/Sep/2021:22:31:27 +0800] "GET /shopping-cart/login.jsp HTTP/1.1" 200 1243
