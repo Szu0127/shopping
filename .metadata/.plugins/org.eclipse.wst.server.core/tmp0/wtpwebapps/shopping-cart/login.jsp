@@ -13,7 +13,7 @@
 		<div class="card w-50 mx-auto my-5">
 			<div class="card-header text-center">使用著登入</div>
 			<div class="card-body">
-				<form action="" method="post">
+				<form action="user-Login" method="post">
 
 					<div class="form-group">
 						<label>信箱</label> <input type="email" class="form-control"

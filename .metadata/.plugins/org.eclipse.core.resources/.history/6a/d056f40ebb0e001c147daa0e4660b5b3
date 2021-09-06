@@ -1,0 +1,5 @@
+package eduvideoproducts.dao;
+
+public class UserDao {
+
+}
