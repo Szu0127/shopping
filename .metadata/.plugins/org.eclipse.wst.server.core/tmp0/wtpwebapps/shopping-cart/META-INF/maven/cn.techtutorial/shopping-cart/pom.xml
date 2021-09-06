@@ -4,6 +4,15 @@
   <artifactId>shopping-cart</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <dependencies>
+ <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>9.2.1.jre15</version>
+</dependency> 
+  </dependencies>
+  
   <build>
     <plugins>
       <plugin>

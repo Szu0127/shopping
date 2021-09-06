@@ -1,13 +1,16 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
+<%@ page import="eduvideoproducts.connection.DbCon" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome to Shopping Cart</title>
+<title>Orders Page</title>
 <%@include file="includes/head.jsp" %>
 </head>
 <body>
-<h1> hello world</h1>
+<%@include file="includes/navbar.jsp"%>
+ <% out.print(DbCon.getConnection()); %> 
+
 <%@include file="includes/footer.jsp" %>
 
 </body>

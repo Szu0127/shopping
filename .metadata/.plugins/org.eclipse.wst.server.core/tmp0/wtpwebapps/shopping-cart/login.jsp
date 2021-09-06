@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -7,7 +7,7 @@
 <%@include file="includes/head.jsp"%>
 </head>
 <body>
-	<h1>hello world</h1>
+	<%@include file="includes/navbar.jsp"%>
 
 	<div class="container">
 		<div class="card w-50 mx-auto my-5">

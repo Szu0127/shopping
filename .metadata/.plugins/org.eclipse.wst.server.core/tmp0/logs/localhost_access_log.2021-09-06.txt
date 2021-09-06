@@ -1,0 +1,13 @@
+127.0.0.1 - - [06/Sep/2021:09:09:07 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:09:09 +0800] "GET /shopping-cart/login.jsp HTTP/1.1" 200 2295
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:09:10 +0800] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:14:01 +0800] "GET /shopping-cart/login.jsp HTTP/1.1" 200 2295
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:14:02 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 1562
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:17:50 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 1562
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:22:07 +0800] "GET /shopping-cart/WEB-INF/classes/eduvideoproducts/connection/DbCon.java HTTP/1.1" 404 682
+127.0.0.1 - - [06/Sep/2021:09:23:03 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:23:04 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 1562
+127.0.0.1 - - [06/Sep/2021:09:24:08 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:24:08 +0800] "GET /shopping-cart/WEB-INF/classes/eduvideoproducts/connection/DbCon.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:24:40 +0800] "GET /shopping-cart/WEB-INF/classes/eduvideoproducts/connection/DbCon.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [06/Sep/2021:09:25:00 +0800] "GET /shopping-cart/index.jsp HTTP/1.1" 200 1558

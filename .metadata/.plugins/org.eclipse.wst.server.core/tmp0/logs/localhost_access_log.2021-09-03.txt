@@ -1,0 +1,2 @@
+127.0.0.1 - - [03/Sep/2021:00:02:30 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [03/Sep/2021:00:02:30 +0800] "GET /shopping-cart/WEB-INF/classes/cn/techtutorial/connection/DbCon.java HTTP/1.1" 404 682
