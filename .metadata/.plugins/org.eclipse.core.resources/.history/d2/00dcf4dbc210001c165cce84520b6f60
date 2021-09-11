@@ -1,0 +1,28 @@
+package eduvideoproducts.dao;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.List;
+
+import eduvideoproducts.model.VideoProducts;
+
+
+public class VideoProductsDAO {
+	
+		private Connection conn;
+		private String query;
+		private PreparedStatement pstmt;
+		private ResultSet rs;
+		
+		public VideoProductsDAO(Connection conn){
+			this.conn = conn;
+		}
+
+		public List<VideoProducts> getAllProducts(){
+			
+			 return products;
+			
+			
+		}
+		
+}

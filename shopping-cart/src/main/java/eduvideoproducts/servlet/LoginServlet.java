@@ -14,45 +14,40 @@ import eduvideoproducts.connection.DbCon;
 import eduvideoproducts.dao.UserDao;
 import eduvideoproducts.model.User;
 
-
 @WebServlet("/user-Login")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		response.sendRedirect("login.jsp");
-	
+
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		response.setContentType("text/html;charset=UTF-8");
-		try(PrintWriter out = response.getWriter()){
-			//out.print("this is login servlet");
-			String email =  request.getParameter("login-email");
-			String password =  request.getParameter("login-password");
-			
+		try (PrintWriter out = response.getWriter()) {
+			// out.print("this is login servlet");
+			String email = request.getParameter("login-email");
+			String password = request.getParameter("login-password");
+
 			try {
-				UserDao udao = new UserDao(DbCon.getConnection());
+				UserDao udao = new UserDao(DbCon.getConnection());//實作userDAO介面
 				User user = udao.userLogin(email, password);
-				
-				if(user != null) {
-					out.print("登入成功!!");
-					request.setAttribute("auth",user);
-					response.sendRedirect("index.jsp");
-					
-					
-				}else {
+
+				if (user != null) {
+					//out.print("登入成功!!");
+					request.getSession().setAttribute("auth", user);
+					response.sendRedirect("index.jsp");//跳轉到首頁
+				} else {
 					out.print("登入失敗請從新輸入!");
 				}
-				
-				
+
 			} catch (ClassNotFoundException | SQLException e) {
-				
 				e.printStackTrace();
 			}
-			
-			//out.print(email+password);
+			// out.print(email+password);確認連線
 		}
 	}
 
